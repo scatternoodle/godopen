@@ -30,4 +30,4 @@ Usage: godopen \[OPTIONS\]
 | :---------------- | :------------------------------------------------------------------------------ |
 | `-h`, `--help`    | Display help message.                                                           |
 | `--project-dir`   | Specify a project directory, instead of fuzzy finding. Overrides `--entry-point`. |
-| `-e`, `--entry-point` | Use a specific starting directory for the search. Default is home directory.    |
+| `-e`, `--entry-point` | Use a specific starting directory for the search. Default is ~/workspace*.<BR><BR>_*Other users will very likely want to change this default. See global variables at the top of the script._ |
