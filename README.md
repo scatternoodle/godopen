@@ -26,7 +26,8 @@ To install, simply clone down the repo, and move `godopen.sh` to wherever you li
 
 Usage: godopen \[OPTIONS\]
 
-Options:
-  -h, --help
-      --project-dir \<PATH\>	Specify a project directory, instead of fuzzy finding. Overrides --entry-point.
-  -e, --entry-point \<PATH\>	Use a specific starting directory for the search. Default is home directory.'
+| Option            | Description                                                                     |
+| :---------------- | :------------------------------------------------------------------------------ |
+| `-h`, `--help`    | Display help message.                                                           |
+| `--project-dir`   | Specify a project directory, instead of fuzzy finding. Overrides `--entry-point`. |
+| `-e`, `--entry-point` | Use a specific starting directory for the search. Default is home directory.    |
